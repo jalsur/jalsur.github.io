@@ -1,0 +1,119 @@
+body {font-family: poppins;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    overflow: hidden;
+   
+}
+header {
+    width: 100vw;
+    margin: 0;
+
+}
+
+.datos {
+    width: 100vw;
+    margin: 0;
+}
+
+.pie {
+    width: 100vh;
+    margin: 0;
+}
+.barra{
+    display: inline-block;
+    background-color: lightblue;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    ;
+}
+.barra:hover {
+    background-color: blue;
+}
+nav {
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen {
+    padding: 5%;
+    margin: 0%;
+    text-align: center;
+}
+
+.legend {
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 0 0 10px;
+
+}
+.lista {
+    display: inline;
+    text-align: center;
+}
+
+.pie{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100vw;
+
+}
+
+.pie h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+.contacto {
+    width: 300px;
+    padding: 30px;
+    background: lightblue;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+.etiqueta {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ingresos {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.ingresos1 {
+
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.boton {
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+.boton:hover {
+    background-color: green;
+}
