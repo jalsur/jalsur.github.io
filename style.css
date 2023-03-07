@@ -52,6 +52,11 @@ nav {
 .lista {
     display: inline;
     text-align: center;
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
 }
 
 .pie{
